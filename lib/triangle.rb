@@ -1,4 +1,5 @@
 class Triangle
+  
   attr_accessor :sidea, :sideb, :sidec
   
   def initialize (sidea, sideb, sidec)
@@ -23,13 +24,6 @@ class Triangle
     end
   end
   
-  
-  
-  
   class TriangleError < StandardError
   end
-  
-  
-  
-  
 end
