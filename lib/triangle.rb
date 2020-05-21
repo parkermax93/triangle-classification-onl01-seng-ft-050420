@@ -13,11 +13,11 @@ class Triangle
       raise TriangleError
     elsif  side_a == side_b && side_a == side_c
       :equilateral
-    elsif side_b == side_c && side_b != side_a && side_c !=side_a
+    elsif side_b == side_c && side_b != side_a && side_c != side_a
       :isosceles
-    elsif side_a == side_b && side_a != side_c && side_b !=side_c
+    elsif side_a == side_b && side_a != side_c && side_b != side_c
       :isosceles
-    elsif side_a == side_c && side_b !=side_a && side_c != side_b
+    elsif side_a == side_c && side_b != side_a && side_c != side_b
        :isosceles
     else
       :scalene
