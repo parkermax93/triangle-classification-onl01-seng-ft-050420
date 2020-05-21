@@ -2,9 +2,9 @@ class Triangle
   attr_accessor :sidea, :sideb, :sidec
   
   def initialize (sidea, sideb, sidec)
-    @sidea= sidea
-    @sideb=sideb
-    @sidec=sidec
+    @sidea = sidea
+    @sideb = sideb
+    @sidec = sidec
   end
    
   def kind 
